@@ -1,0 +1,16 @@
+{
+  "name": "ts-boilerplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --enable-source-maps dist/index.js",
+    "dev": "tsc -w",
+    "build": "tsc"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@types/ws": "^7.4.0",
+    "nanoid": "^3.1.22",
+    "ws": "^7.4.4"
+  }
+}
